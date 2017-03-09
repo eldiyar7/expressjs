@@ -8,6 +8,7 @@ $(function() {
       title: $('#feedback-form-title').val(),
       message: $('#feedback-form-message').val()
     }, updateFeedback);
+    $('.btn').blur();
   });
 
   $('.feedback-messages').on('click', function(e) {
